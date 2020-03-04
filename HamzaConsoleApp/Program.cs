@@ -15,6 +15,7 @@ namespace CO453ClassConsoleApp
     /// Objects include: DistanceConverter,  Book
     /// 
     /// Author: Dr Derek Peacock
+    /// Modified by: Hamza Basharat
     /// </summary>
     class Program
     {
