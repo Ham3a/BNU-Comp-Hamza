@@ -16,7 +16,9 @@ namespace CO453ClassConsoleApp.Unit5
         public const int MAXN_SONGS = 10;
         private string[] chart;
         private int[] votes = new int[MAXN_SONGS];
-
+    /// <summary>
+    /// This string is for the names of the songs
+    /// </summary>
         public MP3Chart()
         {
             chart = new string[]
@@ -33,7 +35,10 @@ namespace CO453ClassConsoleApp.Unit5
                 "Post Malone"
             };
         }
-
+    /// <summary>
+    /// This is the code where the user
+    /// can choose what song they want to vote for
+    /// </summary>
         public int GetVotes()
         {
             SimpleIO.WriteTitle("Vote for UK Top 10 Chart Singles", "Task 5.2");
@@ -47,7 +52,10 @@ namespace CO453ClassConsoleApp.Unit5
             return songNo;
         }
 
-
+    /// <summary>
+    /// This shows the number of votes,
+    /// this will be picked by the user
+    /// </summary>
         public void ShowVotes()
         {
             SimpleIO.WriteTitle("UK Top 10 Chart Singles", "Task 5.2");
@@ -62,7 +70,9 @@ namespace CO453ClassConsoleApp.Unit5
             }
 
         }
-
+        /// <summary>
+    /// This shows what songs are chosen
+    /// </summary>
         public void ShowSongs()
         {
             SimpleIO.WriteTitle("UK Top 10 Chart Singles", "Task 5.2");
