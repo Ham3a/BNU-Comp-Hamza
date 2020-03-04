@@ -47,7 +47,7 @@ namespace HamzaConsoleApp.RPS
         }
 
         /// <summary>
-        /// 
+        /// Author: Hamza Basharat
         /// </summary>
         private void EndGame()
         {
