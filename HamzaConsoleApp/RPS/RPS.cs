@@ -24,7 +24,8 @@ namespace HamzaConsoleApp.RPS
     /// This class is the code for the game.
     /// Author: Derek
     /// Started: 12/02/2019
-    /// Modified : 18/02/2020
+    /// Modified by: Hamza Basharat
+    /// Date Modified:18/02/2020
     /// </summary>
     public class RPS_Game
     {
